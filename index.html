@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Kunal Sah - Full Stack Developer specializing in modern web technologies">
+    <meta name="keywords" content="Full Stack Developer, Web Development, React, Node.js, MongoDB">
+    <title>Kunal Sah | Full Stack Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Portfolio</span>
+                <div class="logo-dot"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button id="mobile-menu" class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="greeting">Hello, I'm</h1>
+                <h1 class="name">Kunal Sah</h1>
+                <h2 class="title">Full Stack Developer</h2>
+                <p class="description">Crafting exceptional digital experiences through innovative web solutions. Specializing in modern web technologies and best practices.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Let's Connect</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/hustler-kunal" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kunal-sah-16a00b267/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/hustler_kunal" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/itsme_kunal01/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-intro">
+                        <h3>Full Stack Developer & Problem Solver</h3>
+                        <p>I am a passionate Full Stack Developer with a strong focus on creating elegant solutions to complex problems. With over 5 years of experience in web development, I specialize in building modern, responsive, and scalable web applications.</p>
+                    </div>
+                    <div class="about-details">
+                        <div class="about-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Clean Code</h4>
+                                <p>Writing maintainable and efficient code is my priority. I follow best practices and design patterns to ensure code quality.</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div>
+                                <h4>Responsive Design</h4>
+                                <p>Creating seamless user experiences across all devices is crucial in today's digital landscape.</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Performance Optimization</h4>
+                                <p>I focus on optimizing applications for speed and efficiency, ensuring the best possible user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn primary-btn">Let's Work Together</a>
+                        <a href="CV.png" class="btn secondary-btn" download>Download CV</a>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Technologies Mastered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Expertise</h2>
+            <div class="skills-content">
+                <!-- Frontend Skills -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Frontend Development
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                                <span class="progress-text">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                                <span class="progress-text">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                                <span class="progress-text">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h4>React</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                                <span class="progress-text">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend Development
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <h4>Node.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                                <span class="progress-text">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>SQL</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>REST API</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                                <span class="progress-text">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Technologies
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <h4>Git</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                                <span class="progress-text">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <h4>Docker</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                                <span class="progress-text">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <h4>AWS</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 65%"></div>
+                                <span class="progress-text">65%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <h4>Linux</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Professional Journey</h2>
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <!-- Current Experience -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Full Stack Developer</h3>
+                                <span class="timeline-date">2022 - Present</span>
+                            </div>
+                            <h4 class="company-name">
+                                <i class="fas fa-building"></i>
+                                Tech Solutions Inc.
+                            </h4>
+                            <div class="timeline-description">
+                                <p>Leading development teams and implementing modern web solutions for enterprise clients. Specializing in React and Node.js applications.</p>
+                                <ul class="timeline-achievements">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Led a team of 5 developers in building scalable web applications
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Implemented CI/CD pipelines for automated deployment
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Optimized application performance by 40%
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Mentored junior developers and conducted code reviews
+                                    </li>
+                                </ul>
+                                <div class="timeline-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">AWS</span>
+                                    <span class="tech-tag">Docker</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Previous Experience -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Full Stack Developer</h3>
+                                <span class="timeline-date">2020 - 2022</span>
+                            </div>
+                            <h4 class="company-name">
+                                <i class="fas fa-building"></i>
+                                Digital Innovations
+                            </h4>
+                            <div class="timeline-description">
+                                <p>Developed responsive websites and web applications for various clients. Focused on creating user-friendly interfaces and optimizing performance.</p>
+                                <ul class="timeline-achievements">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Built 20+ client websites using modern frameworks
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Improved client satisfaction by 35%
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Implemented responsive design best practices
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Developed custom CMS solutions
+                                    </li>
+                                </ul>
+                                <div class="timeline-tech">
+                                    <span class="tech-tag">Vue.js</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">REST API</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- First Experience -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Junior Developer</h3>
+                                <span class="timeline-date">2018 - 2020</span>
+                            </div>
+                            <h4 class="company-name">
+                                <i class="fas fa-building"></i>
+                                WebTech Solutions
+                            </h4>
+                            <div class="timeline-description">
+                                <p>Worked on front-end development and learned modern web technologies. Contributed to various projects and gained hands-on experience.</p>
+                                <ul class="timeline-achievements">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Developed responsive user interfaces
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Collaborated with senior developers
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Learned modern development practices
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Contributed to open-source projects
+                                    </li>
+                                </ul>
+                                <div class="timeline-tech">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">jQuery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-content">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://preview--click-buy-world.lovable.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>E-commerce Platform</h3>
+                            <div class="project-date">2023</div>
+                        </div>
+                        <p class="project-description">A full-featured e-commerce platform built with React and Node.js, featuring real-time inventory management and secure payment processing.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Real-time inventory management</li>
+                                <li><i class="fas fa-check"></i> Secure payment processing</li>
+                                <li><i class="fas fa-check"></i> User authentication & authorization</li>
+                                <li><i class="fas fa-check"></i> Admin dashboard</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Stripe API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://preview--squad-sync-tasks.lovable.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Task Management App</h3>
+                            <div class="project-date">2023</div>
+                        </div>
+                        <p class="project-description">A collaborative task management application with real-time updates, team collaboration features, and advanced analytics.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Real-time task updates</li>
+                                <li><i class="fas fa-check"></i> Team collaboration tools</li>
+                                <li><i class="fas fa-check"></i> Advanced analytics dashboard</li>
+                                <li><i class="fas fa-check"></i> File sharing capabilities</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">WebSocket</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400" alt="Social Media Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Social Media Dashboard</h3>
+                            <div class="project-date">2022</div>
+                        </div>
+                        <p class="project-description">A comprehensive social media management dashboard that aggregates data from multiple platforms and provides analytics.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Multi-platform integration</li>
+                                <li><i class="fas fa-check"></i> Real-time analytics</li>
+                                <li><i class="fas fa-check"></i> Content scheduling</li>
+                                <li><i class="fas fa-check"></i> Audience insights</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">OAuth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Projects Section -->
+    <section id="internship-projects" class="internship-projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Code Alpha Internship Projects</h2>
+            <div class="projects-content">
+                <!-- Internship Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="calc interface.png" alt="Modern-Calculator">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://hustler-kunal.github.io/CodeAlpha_Project_Modern-Calculator/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/hustler-kunal/CodeAlpha_Project_Modern-Calculator" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Modern-Calculator</h3>
+                            <div class="project-date">2025</div>
+                        </div>
+                        <p class="project-description">A sleek and responsive web-based calculator developed during the Code Alpha internship. This modern calculator performs basic arithmetic operations with an intuitive user interface, built using HTML, CSS, and JavaScript.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 🧮 Real-Time Calculation Display</li>
+                                <li><i class="fas fa-check"></i> 🧊 Modern and Clean UI Design</li>
+                                <li><i class="fas fa-check"></i> 🎨 Responsive Layout for All Screen Sizes</li>
+                                <li><i class="fas fa-check"></i> ⌨️ Keyboard Input</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTMl</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="music player.png" alt="Mood-Based-Music-Player">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://hustler-kunal.github.io/CodeAlpha_Project_MoodTune---Mood-Based-Music-Player/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/hustler-kunal/CodeAlpha_Project_MoodTune---Mood-Based-Music-Player" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Mood-Based-Music-Player</h3>
+                            <div class="project-date">2025</div>
+                        </div>
+                        <p class="project-description">A dynamic web-based music player developed during the Code Alpha internship that detects or allows the user to select their mood and plays music accordingly. Designed using HTML, CSS, and JavaScript, this project focuses on enhancing user experience by aligning music choices with emotional states.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 🎵 Mood Selection Interface (Happy, Sad, Energetic, Calm, etc.)</li>
+                                <li><i class="fas fa-check"></i> ⏯️ Basic Music Player Controls (Play, Pause, Next, Previous)</li>
+                                <li><i class="fas fa-check"></i> 🤖 Auto Music Recommendation Based on Mood</li>
+                                <li><i class="fas fa-check"></i> 🎨 Responsive and Aesthetic UI</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Client Testimonials</h2>
+            <div class="testimonials-content">
+                <div class="testimonials-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Working with Kunal was an absolute pleasure. They delivered our project on time and exceeded our expectations. The attention to detail and technical expertise shown in our project was outstanding. The final product was not only visually stunning but also highly functional and user-friendly."</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://picsum.photos/100" alt="John Doe">
+                            </div>
+                            <div class="author-info">
+                                <h4>John Doe</h4>
+                                <p class="author-title">CEO, Tech Solutions Inc.</p>
+                                <p class="author-company">
+                                    <i class="fas fa-building"></i>
+                                    Enterprise Client
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"The quality of work and professionalism demonstrated by Kunal was exceptional. They understood our requirements perfectly and delivered a solution that exceeded our expectations. Their ability to solve complex problems and implement innovative solutions was truly impressive."</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://picsum.photos/100" alt="Jane Smith">
+                            </div>
+                            <div class="author-info">
+                                <h4>Jane Smith</h4>
+                                <p class="author-title">CTO, Digital Innovations</p>
+                                <p class="author-company">
+                                    <i class="fas fa-building"></i>
+                                    Startup Client
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Kunal's technical expertise and problem-solving skills were invaluable to our project. They consistently delivered high-quality code and provided excellent support throughout the development process. Their dedication to meeting deadlines and maintaining high standards was remarkable."</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://picsum.photos/100" alt="Michael Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Johnson</h4>
+                                <p class="author-title">Product Manager, WebTech Solutions</p>
+                                <p class="author-company">
+                                    <i class="fas fa-building"></i>
+                                    Mid-Size Company
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-controls">
+                    <button class="testimonial-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="testimonial-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-form-wrapper" data-aos="fade-right">
+                    <div class="form-header">
+                        <h3>Send Me a Message</h3>
+                        <p>I'll get back to you as soon as possible</p>
+                    </div>
+                    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <input type="text" id="name" name="name" required>
+                                    <label for="name">Your Name</label>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Your Email</label>
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <input type="text" id="subject" name="subject" required>
+                                <label for="subject">Subject</label>
+                                <i class="fas fa-tag"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <textarea id="message" name="message" required></textarea>
+                                <label for="message">Your Message</label>
+                                <i class="fas fa-comment"></i>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn primary-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info-wrapper" data-aos="fade-left">
+                    <div class="contact-info">
+                        <div class="info-header">
+                            <h3>Contact Information</h3>
+                            <p>Feel free to reach out through any of these channels</p>
+                        </div>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Email</h4>
+                                    <a href="mailto:Kunalsah4489@gmail.com" class="method-link">
+                                        <span>Kunalsah4489@gmail.com</span>
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+9779811799853" class="method-link">
+                                        <span>+977 9811799853</span>
+                                        <i class="fas fa-phone-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Location</h4>
+                                    <p class="method-text">Biratnagar, Nepal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-connect">
+                            <h4>Connect With Me</h4>
+                            <div class="social-grid">
+                                <a href="https://github.com/hustler-kunal" target="_blank" class="social-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kunal-sah-16a00b267/" target="_blank" class="social-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://x.com/hustler_kunal" target="_blank" class="social-item">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="https://www.instagram.com/itsme_kunal01/" target="_blank" class="social-item">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="logo-text">KS</span>
+                            <div class="logo-dot"></div>
+                        </div>
+                        <p class="footer-description">Full Stack Developer crafting exceptional digital experiences through innovative web solutions.</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li>Web Development</li>
+                                <li>UI/UX Design</li>
+                                <li>Mobile Apps</li>
+                                <li>API Development</li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><i class="fas fa-envelope"></i> Kunalsah4489@gmail.com</li>
+                                <li><i class="fas fa-phone"></i> +977 9811799853</li>
+                                <li><i class="fas fa-map-marker-alt"></i> Biratnagar, Nepal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-social">
+                        <a href="https://github.com/hustler-kunal" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kunal-sah-16a00b267/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/hustler_kunal" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/itsme_kunal01/" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 Kunal Sah. All rights reserved.</p>
+                        <div class="footer-legal">
+                            <a href="#">Privacy Policy</a>
+                            <span>|</span>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
